@@ -1,0 +1,25 @@
+.planet-img {
+  width: 35%;
+  border-radius: 60px;
+}
+
+@media (max-width: 576px) {
+  .planet-img {
+    width: 90%;
+  }
+}
+
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-name {
+  color: #f8fafc;
+}
+
+.planet-des {
+  color: #f1f5f9;
+}
